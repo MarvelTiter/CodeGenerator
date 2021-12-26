@@ -1,0 +1,4 @@
+﻿[*.cs]
+
+# CS8767: 参数类型中引用类型的为 Null 性与隐式实现的成员不匹配(可能是由于为 Null 性特性)。
+dotnet_diagnostic.CS8767.severity = none

@@ -3,7 +3,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.32002.185
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeGenerator", "CodeGenerator\CodeGenerator.csproj", "{35CE1C74-57AD-4482-AD6B-E8DEE7170A29}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeGenerator", "CodeGenerator\CodeGenerator.csproj", "{35CE1C74-57AD-4482-AD6B-E8DEE7170A29}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C1A2F3AB-CB84-4127-9CEB-BC9686E14445}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeGenerator.Core", "CodeGenerator.Core\CodeGenerator.Core.csproj", "{9FC42019-2E28-4564-AF53-E5EED8CF48DF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +22,10 @@ Global
 		{35CE1C74-57AD-4482-AD6B-E8DEE7170A29}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{35CE1C74-57AD-4482-AD6B-E8DEE7170A29}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{35CE1C74-57AD-4482-AD6B-E8DEE7170A29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FC42019-2E28-4564-AF53-E5EED8CF48DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FC42019-2E28-4564-AF53-E5EED8CF48DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FC42019-2E28-4564-AF53-E5EED8CF48DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FC42019-2E28-4564-AF53-E5EED8CF48DF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
