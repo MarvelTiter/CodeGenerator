@@ -21,10 +21,13 @@
                 <ColumnDefinition />
                 <ColumnDefinition Width="auto" />
             </Grid.ColumnDefinitions>
-            <ComboBox Grid.Column="0" Height="25">
-                <ComboBoxItem IsSelected="True">Oracle</ComboBoxItem>
-                <ComboBoxItem>Sqlserver</ComboBoxItem>
-                <ComboBoxItem>MySql</ComboBoxItem>
+            <ComboBox Grid.Column="0"
+                      Height="25" 
+                      ItemsSource="{Binding DataBaseList}" 
+                      DisplayMemberPath="Display" 
+                      SelectedValuePath="Value"
+                      SelectedValue="{Binding SelectedType}">
+                
             </ComboBox>
             <TextBox
                 Grid.Column="1"
