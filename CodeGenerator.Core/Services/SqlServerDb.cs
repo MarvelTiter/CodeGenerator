@@ -5,12 +5,16 @@ namespace CodeGenerator.Core.Services
 {
     public class SqlServerDb : DbOperatorBase, IDbOperator
     {
+        public SqlServerDb(string connStr):base(connStr)
+        {
+
+        }
         public Task<IEnumerable<DatabaseTable>> GetTablesAsync()
         {
             throw new NotImplementedException();
         }
 
-        public Task<IEnumerable<TableColumn>> GetTableStructAsync()
+        public Task<IEnumerable<TableColumn>> GetTableStructAsync(string table)
         {
             throw new NotImplementedException();
         }

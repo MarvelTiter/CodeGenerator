@@ -6,7 +6,7 @@ using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CodeGenerator
+namespace CodeGenerator.Core
 {
     public class ObservableObject : INotifyPropertyChanged, ICloneable
     {

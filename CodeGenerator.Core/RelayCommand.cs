@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Input;
 
-namespace CodeGenerator
+namespace CodeGenerator.Core
 {
     public class RelayCommand<T> : ICommand
     {

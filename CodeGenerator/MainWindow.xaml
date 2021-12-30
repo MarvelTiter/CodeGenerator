@@ -7,8 +7,9 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:view="clr-namespace:CodeGenerator.Views"
     Title="MainWindow"
-    Width="800"
-    Height="450"
+    Width="1400"
+    Height="850"
+    WindowStartupLocation="CenterScreen"
     mc:Ignorable="d">
     <view:MainView />
 </Window>

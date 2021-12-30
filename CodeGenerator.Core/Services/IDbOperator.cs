@@ -10,6 +10,6 @@ namespace CodeGenerator.Core.Services
     public interface IDbOperator
     {
         Task<IEnumerable<DatabaseTable>> GetTablesAsync();
-        Task<IEnumerable<TableColumn>> GetTableStructAsync();
+        Task<IEnumerable<TableColumn>> GetTableStructAsync(string table);
     }
 }

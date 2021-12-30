@@ -9,6 +9,12 @@ namespace CodeGenerator.Core.Services
 {
     public abstract class DbOperatorBase
     {
+        protected readonly string ConnectionString;
+
+        public DbOperatorBase(string connStr)
+        {
+            this.ConnectionString = connStr;
+        }
         public DbContext Db => CreateDbContext();
 
         protected abstract DbContext CreateDbContext();

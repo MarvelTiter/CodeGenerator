@@ -4,7 +4,9 @@ namespace CodeGenerator.Core.Models
 {
     public class TableColumn
     {
-        public string Name { get; set; }
-        public DbType DbType { get; set; }
+        public string ColumnName { get; set; }
+        public string DataType { get; set; }
+        public string Nullable { get; set; }
+        public string Comments { get; set; }
     }
 }

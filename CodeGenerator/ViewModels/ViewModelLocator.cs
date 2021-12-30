@@ -10,5 +10,6 @@ namespace CodeGenerator.ViewModels
     internal class ViewModelLocator
     {
         public MainViewModel MainViewModel => new MainViewModel();
+        public ConfigViewModel ConfigViewModel => new ConfigViewModel();
     }
 }

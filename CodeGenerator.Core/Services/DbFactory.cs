@@ -13,9 +13,9 @@ namespace CodeGenerator.Core.Services
         {
             return databaseType switch
             {
-                DatabaseType.Oracle => new OracleDb(),
-                DatabaseType.SqlServer => new SqlServerDb(),
-                DatabaseType.MySql => new MySqlDb(),
+                DatabaseType.Oracle => new OracleDb(connectionString),
+                DatabaseType.SqlServer => new SqlServerDb(connectionString),
+                DatabaseType.MySql => new MySqlDb(connectionString),
                 _ => throw new NotSupportedException(),
             };
         }
