@@ -120,7 +120,7 @@ namespace CodeGenerator.ViewModels
                     }
                     await item.SaveFile(item.FileNameTemplate.Replace("${TableNameFormatted}", formatted), temp);
                 }
-            }            
+            }
         });
     }
 
